@@ -8,10 +8,10 @@ public class BowlingBall : MonoBehaviour
     public float leftBound;
     public float rightBound;
     public float moveIncrement;
-    public Rigidbody rigidbody;
+    public Rigidbody rigidbod;
 
     public void Bowl(){
-        rigidbody.AddForce(transform.forward * force, ForceMode.Impulse);
+        rigidbod.AddForce(transform.forward * force, ForceMode.Impulse);
     }
 
     public void MoveLeft(){
